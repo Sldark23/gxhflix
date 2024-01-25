@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gxhflix - Página Principal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>gxhflix - Página Principal</h1>
+    </div>
+
+    <div class="tabs" id="tabs">
+        <button class="tab-button" onclick="loadContent('series')">Séries</button>
+        <button class="tab-button" onclick="loadContent('animes')">Animes</button>
+        <button class="tab-button" onclick="loadContent('filmes')">Filmes</button>
+    </div>
+
+    <div class="content-container" id="contentContainer">
+        <div class="content" id="content"></div>
+    </div>
+
+    <script src="conteudo.js"></script>
+</body>
+</html>

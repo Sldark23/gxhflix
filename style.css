@@ -1,0 +1,80 @@
+body {
+    background-color: #4B0082; /* Roxo escuro */
+    color: #FFF; /* Texto branco */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #800080; /* Roxo */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #FFD700; /* Amarelo para destaque */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #9400D3; /* Lilás mais claro */
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #8A2BE2; /* Lilás mais escuro no hover */
+}
+.tabs {
+    background-color: #800080; /* Roxo */
+    overflow-x: auto; /* Adiciona a barra de rolagem horizontal quando necessário */
+    white-space: nowrap; /* Impede a quebra de linha para os botões */
+}
+
+.tab-button {
+    display: inline-block;
+    padding: 14px 16px;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.tab-button:hover {
+    background-color: #9400D3; /* Lilás mais claro no hover */
+}
+
+.content-container {
+    display: flex;
+    overflow-x: auto; /* Adiciona a barra de rolagem horizontal quando necessário */
+}
+
+.content {
+    flex: 0 0 auto; /* Impede que o conteúdo force a largura do contêiner */
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
